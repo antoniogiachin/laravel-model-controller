@@ -12,7 +12,6 @@ class HomeController extends Controller
 
         //richiesta al db, creo il model
         $movies = Movie::all();
-        dump($movies);
 
         //passo movie alla vista 
         // restituisce la view da visualizzare

@@ -1,0 +1,15 @@
+@mixin my_flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@mixin my_flex_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+$backgroundColor: #222;
+$textColor: #f6f6f6;
+$navColor: rgb(139, 13, 13);

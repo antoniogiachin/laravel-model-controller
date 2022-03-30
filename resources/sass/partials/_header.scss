@@ -1,0 +1,25 @@
+header{
+    background-color: $navColor;
+    padding: 1rem;
+    @include my_flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    .icon{
+        width: 5%;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    span{
+        color: $textColor;
+        text-transform: uppercase;
+        font-size: 2rem;
+        flex-grow: 2;
+        text-align: center;
+    }
+}
