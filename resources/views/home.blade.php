@@ -9,10 +9,10 @@
             <a href="#">
                 <h3>{{ $movie->title }}</h3>
                 <ul>
-                    <li> <span>Titolo: </span> {{ $movie->original_title }}</li>
-                    <li><span>Nazionalità: </span> {{ $movie->original_title }}</li>
-                    <li><span>Data di uscita: </span> {{ $movie->original_title }}</li>
-                    <li><span>Voto: </span> {{ $movie->original_title }}</li>
+                    <li> <span>Titolo Originale: </span> {{ $movie->original_title }}</li>
+                    <li><span>Nazionalità: </span> {{ $movie->nationality }}</li>
+                    <li><span>Data di uscita: </span> {{ $movie->date }}</li>
+                    <li><span>Voto: </span> {{ $movie->vote }}</li>
                 </ul>
             </a>
         </div>
