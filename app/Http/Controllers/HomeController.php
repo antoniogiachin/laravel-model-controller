@@ -11,12 +11,12 @@ class HomeController extends Controller
     public function index(){
 
         //richiesta al db, creo il model
-        $movie = Movie::all();
-        dump($movie);
+        $movies = Movie::all();
+        dump($movies);
 
         //passo movie alla vista 
         // restituisce la view da visualizzare
-        return view('home', compact($movie));
+        return view('home', compact('movies'));
 
     }
 }
